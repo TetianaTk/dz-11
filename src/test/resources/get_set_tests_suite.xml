@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="get/set tests suite">
+  <test name="test getter/setter methods">
+    <groups>
+      <run>
+        <include name="getter_test" />
+        <include name="setter_test" />
+      </run>
+    </groups>
+    <classes>
+      <class name="org.example.ManTest" />
+      <class name="org.example.WomanTest" />
+    </classes>
+  </test>
+</suite>
